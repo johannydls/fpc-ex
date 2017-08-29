@@ -3,11 +3,11 @@ fn main() {
 
     let mut lista: Vec<i32> = vec![12, 32, -5, 99, 4, 0, 9, 5, -1, 3];
 
-    println!("Lista original: {:?}", lista);
+    println!("Array original: {:?}", lista);
 
     sort(&mut lista);
 
-    println!("Lista ordenada: {:?}", lista);
+    println!("Array ordenado: {:?}", lista);
 }
 
 
